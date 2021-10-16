@@ -3,13 +3,13 @@
 public class WeatherUtilities
 {
     
-    static float FahrenheitToCelsius(float temperatureFahrenheit)
+    static public float FahrenheitToCelsius(float temperatureFahrenheit)
     {
         var temperatureCelsius = temperatureFahrenheit - 32 / 1.8f;
         return temperatureCelsius;
     }
 
-    static float CelsiusToFahrenheit(float temperatureCelsius)
+    static public float CelsiusToFahrenheit(float temperatureCelsius)
     {
         var temperatureFahrenheit = temperatureCelsius * 1.8f + 32;
         return temperatureFahrenheit;
