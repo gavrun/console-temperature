@@ -6,13 +6,9 @@ namespace console_temperature
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Convert temperature from F to C");
-        }
+            Console.WriteLine("Hello");
 
-        static double FahrenheitToCelsius(double temperatureFahrenheit)
-        {
-            double temperatureCelsius = (temperatureFahrenheit - 32) / 1.8;
-            return temperatureCelsius;
+            WeatherUtilities.Report("Bologna", 23, 65); 
         }
     }
 }
